@@ -21,6 +21,7 @@
 		7FA760D119C23513001F8CFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA760B319C23513001F8CFF /* UIKit.framework */; };
 		7FA760D919C23513001F8CFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FA760D719C23513001F8CFF /* InfoPlist.strings */; };
 		7FA760DB19C23513001F8CFF /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA760DA19C23513001F8CFF /* viewTutorialTests.m */; };
+		7FA760E619C2377A001F8CFF /* MGGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA760E519C2377A001F8CFF /* MGGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7FA760D619C23513001F8CFF /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		7FA760D819C23513001F8CFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7FA760DA19C23513001F8CFF /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		7FA760E419C2377A001F8CFF /* MGGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGGrid.h; sourceTree = "<group>"; };
+		7FA760E519C2377A001F8CFF /* MGGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				7FA760C119C23513001F8CFF /* Main.storyboard */,
 				7FA760C419C23513001F8CFF /* MGViewController.h */,
 				7FA760C519C23513001F8CFF /* MGViewController.m */,
+				7FA760E419C2377A001F8CFF /* MGGrid.h */,
+				7FA760E519C2377A001F8CFF /* MGGrid.m */,
 				7FA760C719C23513001F8CFF /* Images.xcassets */,
 				7FA760B619C23513001F8CFF /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FA760C019C23513001F8CFF /* MGAppDelegate.m in Sources */,
+				7FA760E619C2377A001F8CFF /* MGGrid.m in Sources */,
 				7FA760C619C23513001F8CFF /* MGViewController.m in Sources */,
 				7FA760BC19C23513001F8CFF /* main.m in Sources */,
 			);
